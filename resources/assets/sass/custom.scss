@@ -1,0 +1,270 @@
+/*------------------------------------------------ GLOBAL STYLES ------------------------------------------------ */
+body {
+    //background-color: #000000;
+    //font-size: 14px;
+}
+.content {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+img {
+    width: 100%
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #ffff66
+}
+.banner {
+    background-color: #ffffff;
+    padding: 0;
+}
+// Back to top button
+#toTop.btn-info {
+    background-color: #b62d2d;
+    border-color: #9c2727;
+}
+
+
+/*------------------------------------------------ HEADER STYLES ------------------------------------------------ */
+header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#519032+17,71bf44+100 */
+    background: #519032; /* Old browsers */
+    background: -moz-linear-gradient(top, #519032 17%, #71bf44 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #519032 17%, #71bf44 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #519032 17%, #71bf44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#519032', endColorstr='#71bf44', GradientType=0); /* IE6-9 */
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding: 16px 0 16px;
+    text-transform: uppercase;
+}
+header div.logo {
+    padding: 0 0 16px 0;
+}
+header h1 {
+    clear: left;
+    font-weight: 300;
+}
+header h1 span {
+    font-size: 170%;
+    font-weight: bold;
+    line-height: .8;
+}
+
+/*------------------------------------------------ NAVIGATION STYLES ------------------------------------------------ */
+.navbar-default {
+    background-color: #000000;
+}
+.navbar {
+    border: none;
+    margin-bottom: 0;
+}
+.navbar > .container {
+    background: #ffffff;
+}
+
+/*------------------------------------------------ HOME PAGE STYLES ------------------------------------------------ */
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+.rslides_container + div {
+    border-bottom: 1px solid #dddddd;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.row {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.row:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.features, .includes {
+    text-align: center;
+}
+.hose-reel img {
+    box-shadow: 0 0 10px 2px #888888;
+}
+.features h3, .includes h3 {
+    background-color: #b62d2d;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.features ul, .features li {
+    list-style: none;
+    text-align: left;
+}
+.features li:nth-child(odd) {
+    font-weight: bold;
+    list-style: disc;
+    text-transform: uppercase;
+}
+.features li:nth-child(even) {
+    margin-bottom: 20px;
+}
+.includes li {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@media(max-width: 767px) {
+    .row {
+        padding-bottom: 30px;
+    }
+    .hose-reel {
+        margin-bottom: 50px;
+    }
+}
+
+/*------------------------------------------------ BACK TO TOP STYLES ------------------------------------------------ */
+
+#toTop {
+    border-radius: 50px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    line-height: 40px;
+    opacity: .75;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+}
+#toTop .fa {
+    font-size: 25px;
+}
+
+/*------------------------------------------------ FOOTER STYLES ------------------------------------------------ */
+footer {
+    background-color: #71bf44;
+    color: #ffffff;
+    padding-top: 15px;
+}
+footer > .row {
+    margin-bottom: 15px;
+}
+.contact-info {
+    border-left: 1px solid #ffffff;
+}
+.contact-info ul, .contact-info li {
+    list-style: none;
+}
+.contact-info ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+/*#sunneday-logo,*/ #gartenkraft-logo {
+    height: 100%;
+}
+/*#sunneday-logo:before,*/ #gartenkraft-logo:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+footer #copyright {
+    clear: both;
+    text-align: center;
+}
+
+
+@media(min-width: 550px) and (max-width: 767px) {
+    #sunneday-logo, #gartenkraft-logo {
+        text-align: center;
+    }
+    #sunneday-logo img, #gartenkraft-logo img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 767px) {
+    .content, footer {
+        font-size: 86%;
+    }
+    h1 {
+
+    }
+    h2 {
+
+    }
+    h3 {
+        font-size: 18px;
+    }
+    header h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    header div.logo {
+        padding-bottom: 8px;
+    }
+
+    .rslides_container + div {
+        font-size: 110%;
+    }
+
+    /*------ FOOTER STYLES ------*/
+    footer {
+        //font-size: 11px;
+    }
+    .contact-info {
+        border-left: none;
+        clear: left;
+        text-align: center;
+    }
+    #gartenkraft-logo {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 992px) {
+    body {
+        //font-size: 18px;
+    }
+    .content, footer {
+        font-size: 120%;
+    }
+    #gartenkraft-logo {
+        margin-bottom: 20px;
+    }
+}
+
