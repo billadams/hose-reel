@@ -30,7 +30,7 @@
                 <li>Durable reel encasement</li>
                 <li>Constructed of High Impact Plastic</li>
                 <li>Hose reel mounting bracket</li>
-                <li>Swivels 180 Degrees or Improved Mobility and Fewer Kinks</li>
+                <li>Swivels 180 Degrees for Improved Mobility and Fewer Kinks</li>
                 <li>Product warrant</li>
                 <li>3 Year Warranty on Hose, Case, & Reel</li>
             </ul>
